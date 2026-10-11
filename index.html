@@ -334,6 +334,22 @@ footer {
   line-height: 1.55;
 }
 
+
+a.endorse-card {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  cursor: pointer;
+}
+a.endorse-card::after {
+  content: ' ↗';
+  font-size: 0.75em;
+  opacity: 0.5;
+  display: inline-block;
+  margin-left: 0.25em;
+  vertical-align: super;
+}
+
 </style>
 </head>
 <body>
@@ -410,25 +426,98 @@ footer {
   <div class="section-inner">
     <div class="section-eyebrow fade-up">Endorsements</div>
     <h2 class="fade-up">Who&rsquo;s Standing<br>With Aaron</h2>
-    <div class="endorse-grid">
-
-      <div class="endorse-card fade-up">
-        <span class="endorse-badge">Union Endorsement</span>
-        <div class="endorse-org">Ann Arbor Education Association</div>
-        <p class="endorse-desc">The AAEA — representing Ann Arbor&rsquo;s teachers — has endorsed Aaron for the AAPS Board of Trustees.</p>
-        <p class="endorse-note">&ldquo;With the help of all of you, we can once again be a district that truly leads, cares, and inspires.&rdquo;</p>
+    <div style="margin-bottom: 2rem;">
+      <div class="section-eyebrow fade-up" style="margin-bottom: 0.75rem; color: var(--purple);">Organizations</div>
+      <div class="endorse-grid">
+        <a class="endorse-card fade-up" href="https://www.washtenawdems.org" target="_blank" rel="noopener">
+          <span class="endorse-badge">Party</span>
+          <div class="endorse-org">Washtenaw County Democratic Party</div>
+          <p class="endorse-desc">The Washtenaw County Democratic Party endorsed Aaron as part of the Together Forward AAPS slate.</p>
+        </a>
+        <a class="endorse-card fade-up" href="https://a2ea.org" target="_blank" rel="noopener">
+          <span class="endorse-badge">Union</span>
+          <div class="endorse-org">Ann Arbor Education Association</div>
+          <p class="endorse-desc">The AAEA &mdash; representing Ann Arbor&rsquo;s teachers, counselors, and educational support professionals &mdash; endorsed Aaron for AAPS Trustee.</p>
+          <p class="endorse-note">&ldquo;We can once again be a district that truly leads, cares, and inspires.&rdquo;</p>
+        </a>
+        <a class="endorse-card fade-up" href="https://www.huronvalleyalf.org" target="_blank" rel="noopener">
+          <span class="endorse-badge">Labor</span>
+          <div class="endorse-org">Huron Valley Area Labor Federation</div>
+          <p class="endorse-desc">The Huron Valley Area Labor Federation, representing working families across Washtenaw County, has endorsed Aaron&rsquo;s campaign.</p>
+        </a>
+        <div class="endorse-card fade-up">
+          <span class="endorse-badge">PAC</span>
+          <div class="endorse-org">Real Safety PAC</div>
+          <p class="endorse-desc">Real Safety PAC has endorsed Aaron&rsquo;s campaign for Ann Arbor School Board.</p>
+        </div>
+        <a class="endorse-card fade-up" href="https://umichcollegedems.com" target="_blank" rel="noopener">
+          <span class="endorse-badge">Student Org</span>
+          <div class="endorse-org">College Democrats at the University of Michigan</div>
+          <p class="endorse-desc">The College Democrats at U of M have endorsed Aaron, reflecting strong support from Ann Arbor&rsquo;s student community.</p>
+        </a>
+        <div class="endorse-card fade-up">
+          <span class="endorse-badge">Student Org</span>
+          <div class="endorse-org">College Democrats at Eastern Michigan University</div>
+          <p class="endorse-desc">The College Democrats at EMU have endorsed Aaron&rsquo;s campaign for Ann Arbor School Board.</p>
+        </div>
+        <div class="endorse-card fade-up">
+          <span class="endorse-badge">Student Org</span>
+          <div class="endorse-org">Human Rights Party at the University of Michigan</div>
+          <p class="endorse-desc">The Human Rights Party at U of M has endorsed Aaron, reflecting broad progressive student support.</p>
+        </div>
       </div>
-
-      <div class="endorse-card fade-up">
-        <span class="endorse-badge">Coming Soon</span>
-        <div class="endorse-org">More Endorsements</div>
-        <p class="endorse-desc">Additional organizational and community endorsements will be announced soon. Check back for updates.</p>
-      </div>
-
     </div>
+
+    <div style="margin-bottom: 2.5rem;">
+      <div class="section-eyebrow fade-up" style="margin-bottom: 0.75rem; color: var(--purple);">Elected Officials &amp; Individuals</div>
+      <div class="endorse-grid">
+        <a class="endorse-card fade-up" href="https://debbiedingell.house.gov" target="_blank" rel="noopener">
+          <span class="endorse-badge">Federal</span>
+          <div class="endorse-org">U.S. Representative Debbie Dingell</div>
+          <p class="endorse-desc">Congresswoman Debbie Dingell, representing Michigan&rsquo;s 6th Congressional District, has endorsed Aaron for Ann Arbor School Board.</p>
+        </a>
+        <a class="endorse-card fade-up" href="https://www.washtenaw.org/sheriff-1" target="_blank" rel="noopener">
+          <span class="endorse-badge">County</span>
+          <div class="endorse-org">Washtenaw County Sheriff Alyshia M. Dyer</div>
+          <p class="endorse-desc">Sheriff Alyshia M. Dyer has endorsed Aaron&rsquo;s campaign for the AAPS Board of Trustees.</p>
+        </a>
+        <a class="endorse-card fade-up" href="https://www.washtenaw.org/district-8" target="_blank" rel="noopener">
+          <span class="endorse-badge">County</span>
+          <div class="endorse-org">Washtenaw County Commissioner Yousef Rabhi</div>
+          <p class="endorse-desc">County Commissioner Yousef Rabhi has endorsed Aaron&rsquo;s campaign for Ann Arbor School Board.</p>
+        </a>
+        <a class="endorse-card fade-up" href="https://www.washtenaw.org/district-6" target="_blank" rel="noopener">
+          <span class="endorse-badge">County</span>
+          <div class="endorse-org">Washtenaw County Commissioner Annie Somerville</div>
+          <p class="endorse-desc">County Commissioner Annie Somerville has endorsed Aaron&rsquo;s campaign for Ann Arbor School Board.</p>
+        </a>
+        <a class="endorse-card fade-up" href="https://www.travisradina.com" target="_blank" rel="noopener">
+          <span class="endorse-badge">City</span>
+          <div class="endorse-org">Ann Arbor Mayor Pro Tem Travis Radina</div>
+          <p class="endorse-desc">Mayor Pro Tem Travis Radina has endorsed Aaron, bringing key support from Ann Arbor city leadership.</p>
+        </a>
+        <a class="endorse-card fade-up" href="https://www.a2jenn.org" target="_blank" rel="noopener">
+          <span class="endorse-badge">City</span>
+          <div class="endorse-org">Ann Arbor City Councilmember Jenn Cornell</div>
+          <p class="endorse-desc">Councilmember Jenn Cornell has endorsed Aaron&rsquo;s candidacy for the AAPS Board of Trustees.</p>
+        </a>
+        <a class="endorse-card fade-up" href="https://www.a2gov.org/city-council/jen-eyer/" target="_blank" rel="noopener">
+          <span class="endorse-badge">City</span>
+          <div class="endorse-org">Ann Arbor City Councilmember Jen Eyer</div>
+          <p class="endorse-desc">Councilmember Jen Eyer has endorsed Aaron&rsquo;s campaign for Ann Arbor School Board.</p>
+        </a>
+        <a class="endorse-card fade-up" href="hhttps://www.voteaidansova.com" target="_blank" rel="noopener">
+          <span class="endorse-badge">Library Board</span>
+          <div class="endorse-org">AADL Board President Aidan Sova</div>
+          <p class="endorse-desc">Ann Arbor District Library Board President Aidan Sova has endorsed Aaron, reflecting broad civic support across Ann Arbor institutions.</p>
+        </a>
+      </div>
+    </div>
+
     <div style="text-align:center;">
-      <a href="/news" class="btn-primary" style="background: var(--purple); color: var(--white);">Read the AAEA Press Release &rarr;</a>
+      <a href="/news" class="btn-primary" style="background: var(--purple); color: var(--white);">Read Endorsement Press Releases &rarr;</a>
     </div>
+  </div>
   </div>
 </section>
 
